@@ -1,0 +1,21 @@
+h1 {
+    color: #9d8189;
+}
+h2 {
+    color: #f4acb7;
+}
+.plogin {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 15px;
+    border: 10px solid #d8e2dc;
+    margin: 40px 10px 20px 10px; /*margin: "top" "left" "bottom" "right";*/
+}
+.psingup {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 15px;
+    border: 10px solid #d8e2dc;
+    margin: 40px 10px 20px 10px; /*margin: "top" "left" "bottom" "right";
+    /*margin: auto; "Esta linea centra los elementos de manera horizontal"*/
+}
