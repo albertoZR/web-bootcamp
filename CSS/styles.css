@@ -19,3 +19,16 @@ h2 {
     margin: 40px 10px 20px 10px; /*margin: "top" "left" "bottom" "right";
     /*margin: auto; "Esta linea centra los elementos de manera horizontal"*/
 }
+a:link {
+    text-decoration: none;
+    background-color: #f4acb7;
+    padding: 20px;
+    color: #1d2d44;
+}
+a:visited{
+    color: black;
+}
+a:hover {
+    background-color: #ffcad4;
+    color: #ffffff;
+}
