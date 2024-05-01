@@ -32,3 +32,27 @@ a:hover {
     background-color: #ffcad4;
     color: #ffffff;
 }
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption {
+    color: #d4a373;
+    font-family: "Trocchi", serif;
+    font-size: 40px;
+    line-height: 70px;
+}
+th {
+    color: black;
+    background-color: #faedcd;
+}
+tr:nth-child(even) { /*Esta propiedad se aplica a renglones pares (even) o impares (odd)*/
+    background-color: #fefae0;
+}
+tr:nth-child(odd) {
+    background-color: #e9edc9;
+}
