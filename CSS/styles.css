@@ -56,3 +56,27 @@ tr:nth-child(even) { /*Esta propiedad se aplica a renglones pares (even) o impar
 tr:nth-child(odd) {
     background-color: #e9edc9;
 }
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+}
+ol {
+    list-style: none;
+    counter-reset: contador;
+}
+ol li::before { /*Estamos utilizando un selector, en este caso before (antes) pero tambien essta after (despues)*/
+    content: "Curso " counter(contador) ") "; /*Contador y contenido*/
+    counter-increment: contador;
+    color: #cdb4db;
+}
+ol li::after {
+    content: ".";
+}
