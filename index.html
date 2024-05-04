@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Bootcamp</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +16,10 @@
   </head>
 
   <body>
+    <h1 id="titulo-principal">Universidad Web</h1>
+
+    <hr />
+
     <!--Si queremos un color de fondo dentro del HTML podemos usar 
         style="background-color: #F0EBD8;-->
     <h1>Elementos en HTML</h1>
@@ -47,7 +51,13 @@
     <hr />
 
     <h1 style="color: #6f1d1b">Imagenes en HTML</h1>
-    <img src="/img/html.png" alt="LOGO HTML" width="100px" title="HTML" />
+    <img
+      id="img-html"
+      src="/img/html.png"
+      alt="LOGO HTML"
+      width="100px"
+      title="HTML"
+    />
     <img src="/img/css.png" alt="LOGO CSS" width="100px" title="CSS" />
     <img
       src="/img/javascript.png"
@@ -74,8 +84,8 @@
         >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum modi
         debitis molestias beatae, eius saepe assumenda facere distinctio
         voluptatum, ea, sapiente voluptates ratione illo. Repudiandae aliquam
-        debitis ex? Doloribus, blanditiis.</strong
-      >
+        debitis ex? Doloribus, blanditiis.
+      </strong>
     </p>
     <p><i>Texto en Italica</i></p>
     <p>
@@ -163,8 +173,8 @@
     <h2>Link para enviar e-mail</h2>
     <a
       href="mailto:albertozavaleta7600@gmail.com?subject=Contacto&body=prueba-email"
-      >Enviar E-mail</a
-    >
+      >Enviar E-mail
+    </a>
 
     <hr />
 
@@ -362,7 +372,7 @@
     <p>
       Inician en una nueva linea se suele utlizar <em> la equieta "div"</em>
     </p>
-    <div>
+    <div class="tarjeta">
       <h3>Texto dentro de la etuiqueta <em>"div"</em></h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ex
@@ -377,5 +387,47 @@
       Nemo repudiandae numquam eveniet voluptatem laboriosam similique labore
       aperiam tempora.
     </p>
+
+    <h3>Lenguajes de Programacion con la etiqueta <em>"div"</em></h3>
+
+    <div class="tarjeta">
+      <h3>Java</h3>
+      <p><span class="creador">Creador:</span>James Gosling</p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>Paython</h3>
+      <p><span class="creador">Creador:</span>Guido van Russum</p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>JavaScript</h3>
+      <p><span class="creador">Creador:</span>Brendan Eich</p>
+    </div>
+
+    <div>
+      <h3>Resumen de los lenguajes de Programación</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut earum
+        impedit perferendis eius maxime dolore at veritatis unde. Libero vel
+        omnis veniam et nisi culpa nesciunt est fuga mollitia temporibus?
+      </p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>Marcadores o Bookmarks</h3>
+      <p>Para los bookmarks utilizamos el elemnto <em>"id"</em></p>
+      <br />
+      <a href="#img-html">Imagen HTML</a>
+    </div>
+
+    <div>
+      <h2>Uso de iframe en HTML</h2>
+      <iframe class="marco" src="/contacto.html" name="marco1"></iframe>
+    </div>
+    <div class="tarjeta">
+      <a href="https://google.com" target="marco1">Cargar Sitio</a>
+    </div>
+    <hr />
   </body>
 </html>
