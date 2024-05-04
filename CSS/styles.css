@@ -80,3 +80,7 @@ ol li::before { /*Estamos utilizando un selector, en este caso before (antes) pe
 ol li::after {
     content: ".";
 }
+.span-text {
+    color: #cdb4db;
+    border: 1px solid black;
+}
