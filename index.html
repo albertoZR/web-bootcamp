@@ -429,5 +429,108 @@
       <a href="https://google.com" target="marco1">Cargar Sitio</a>
     </div>
     <hr />
+
+    <h1>Formularios en HTML</h1>
+    <form method="POST" action="mi_servidor" autocomplete="off">
+      <fieldset>
+        <legend>Datos Persona:</legend>
+        <label for="idpersona">ID Persona:</label>
+        <br />
+        <input
+          type="idpersona"
+          name="idpersona"
+          id="idpersona"
+          readonly="true"
+          value="100"
+          disabled="true"
+        />
+        <br />
+        <input type="hidden" name="sistema" id="sistema" value="SAP" />
+        <label for="nombre">Nombre:</label>
+        <br />
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Escribe tu nombre"
+          required="true"
+        />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <br />
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Escribe tu apellido"
+          required="true"
+        />
+        <br />
+        <label for="password">Contraseña:</label>
+        <br />
+
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required="true"
+          placeholder="Escribe tu contraseña"
+        />
+        <br />
+        <label for="email">E-mail:</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Escribe tu E-mail"
+        />
+        <br />
+        <label for="edad">Edad:</label>
+        <br />
+        <input
+          type="number"
+          name="edad"
+          id="edad"
+          placeholder="Proporciona tu edad"
+        />
+        <br />
+        <label>Genero:</label>
+        <br />
+        <input type="radio" name="genero" id="femenino" value="femenino" />
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino" />
+        <label for="masculino">Masculino</label>
+        <br />
+        <label>Genero Musical:</label>
+        <br />
+        <input type="checkbox" name="musica" id="clasica" />
+        <label for="clasica">Clasica</label>
+        <br />
+        <input type="checkbox" name="musica" id="jazz" />
+        <label for="jazz">Jazz</label>
+        <br />
+        <label for="autos">Marca de auto favorita:</label>
+        <br />
+        <select name="autos" id="autos">
+          <option value="volvo">Volvo</option>
+          <option value="bmw">BMW</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br />
+        <label for="comentario">Comentarios:</label>
+        <br />
+        <textarea name="comentario" id="comentario" rows="2" cols="30">Escribe tu comentario...</textarea>
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+        <input
+          type="submit"
+          value="Enviar sin validar"
+          formnovalidate="formnovalidate"
+        />
+        <input type="reset" value="Restablecer" />
+      </fieldset>
+    </form>
   </body>
 </html>
